@@ -11,7 +11,7 @@ public enum LogLevel: Int {
 }
 
 extension LogLevel: Hashable {
-    public var hashValue: Int {
-        return self.rawValue
+    public func hash(into hasher: inout Hasher) {
+        hasher.combine(self.rawValue)
     }
 }

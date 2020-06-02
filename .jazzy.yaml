@@ -1,7 +1,7 @@
 # Log document generator jazzy settings
 
-copyright: Copyright 2019 Wunder Mobility
-author: Wunder Mobility
+copyright: Copyright 2019 Vicente Crespo
+author: Vicente Crespo
 xcodebuild_arguments: [-target, Log-iOS]
 clean: true
 output: ./Documentation

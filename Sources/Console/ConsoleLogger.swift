@@ -2,7 +2,7 @@ import Foundation
 
 /// Console implementation for Logger
 public class ConsoleLogger: BaseLogger {
-    // Mark: - Overrides
+    // MARK: - Overrides
     public override func print(message: String) {
         self.queue.async {
             Swift.print(message)

@@ -1,11 +1,3 @@
-//
-//  ViewController.swift
-//  Example
-//
-//  Created by Wunder Mobility on 31 may 2019.
-//  Copyright © 2019 Wunder Mobility. All rights reserved.
-//
-
 import UIKit
 import Log
 

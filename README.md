@@ -52,7 +52,7 @@ pod 'Log'
 To integrate Log into your Xcode project using Carthage, specify it in your `Cartfile`:
 
 ```ogdl
-github "Wunder Mobility/Log"
+github "vCrespoP/Log"
 ```
 
 Run `carthage update` to build the framework and drag the built `Log.framework` into your Xcode project. 
@@ -65,7 +65,7 @@ To integrate using Apple's [Swift Package Manager](https://swift.org/package-man
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/wundercar/log-ios.git", from: "1.0.0")
+    .package(url: "https://github.com/vCrespoP/log-ios.git", from: "1.0.0")
 ]
 ```
 
@@ -84,7 +84,7 @@ Contributions are very welcome 🙌
 
 ```
 Log
-Copyright (c) 2019 Wunder Mobility https://www.wundermobility.com
+Copyright (c) 2019 Vicente Crespo https://www.github.com/vCrespoP
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

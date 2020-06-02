@@ -57,6 +57,9 @@ private extension LogMessage {
     
     func sourceFileName(filePath: String) -> String {
         let components = filePath.components(separatedBy: "/")
-        return components.isEmpty ? "" : components.last!
+        guard let lastComponent = components.last else {
+            return ""
+        }
+        return lastComponent
     }
 }

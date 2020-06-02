@@ -4,7 +4,7 @@ import Foundation
 open class BaseLogger {
     // MARK: - Properties
     
-    internal let queue = DispatchQueue(label: "WUNDER.log")
+    internal let queue = DispatchQueue(label: "vCrespo.log")
     private var level: LogLevel
     public private(set) var history: CircularArray<LogMessage>
     
